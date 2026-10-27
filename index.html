@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e5e5e5;
+        }
+
+        /* 1. Cabeçalho Sticky */
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #34495e;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            z-index: 1000;
+        }
+
+        /* 2. Menu lateral Fixed */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100vh;
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        nav h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            padding: 4px 0;
+            font-size: 13px;
+        }
+
+        /* 4. Conteúdo e Seções */
+        .conteudo-principal {
+            margin-left: 200px; /* Alinhado exatamente à largura do menu */
+            padding: 15px;
+        }
+
+        section {
+            height: 500px;
+            background-color: #eeeeee;
+            margin-bottom: 15px;
+            border: 1px solid #cccccc;
+            padding: 15px;
+        }
+
+        section h2 {
+            font-size: 14px;
+            font-weight: normal;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho Sticky -->
+    <header>
+        Nossa História
+    </header>
+
+    <!-- Menu Lateral Fixed -->
+    <nav>
+        <h3>Menu</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </nav>
+
+<!-- Conteúdo com Seções para Scroll -->
+    <div class="conteudo-principal">
+        <section>
+            <h3>A Raiz Histórica das Desigualdades</h3>
+            <br>As desigualdades brasileiras não surgiram por acaso; possuem raízes históricas profundas que remontam aos períodos colonial e imperial:<br><br>
+
+            <p><strong>A herança da escravidão:</strong> O Brasil foi o último país das Américas a abolir a escravidão (1888). Mais de três séculos de exploração de pessoas negras deixaram um abismo social. A abolição ocorreu sem que houvesse políticas de inclusão, distribuição de terras ou acesso à educação para os recém-libertos, empurrando-os para a margem da sociedade e moldando o racismo estrutural que se reflete na distribuição de renda, nos empregos e na segurança pública.</p><br>
+
+            <p><strong>A concentração fundiária:</strong> Desde as sesmarias e capitanias hereditárias, passando pelo período cafeeiro, a terra no Brasil sempre esteve concentrada nas mãos de poucos. Esse modelo de latifúndio gerou um histórico de exclusão no campo, êxodo rural desordenado e o crescimento acelerado e desigual das periferias urbanas.</p><br>
+
+            <p><strong>O acesso excludente à educação e cidadania:</strong> Por muito tempo, o direito ao voto e à educação formal foi negado à maioria da população (incluindo analfabetos, mulheres e pobres), fazendo com que as políticas públicas historicamente beneficiassem apenas as elites dirigentes.</p>
+        </section>
+        
+        <section>
+            <h3>A Importância de Saber a Nossa História</h3>
+            <br>Conhecer a história real do Brasil — indo além das versões oficiais e eurocêntricas — é essencial por vários motivos:<br><br>
+
+            <p><strong>Compreensão do presente:</strong> Problemas atuais como a violência urbana, a falta de saneamento em comunidades, a disparidade salarial e o preconceito não são "acidentes", mas sim reflexos de um projeto histórico que privilegiou alguns grupos em detrimento de outros. Só é possível resolver um problema quando se entende a sua origem.</p><br>
+
+            <p><strong>Valorização da pluralidade e resistência:</strong> Estudar a história sob múltiplos pontos de vista revela o protagonismo de quem lutou contra a opressão. Conhecer as revoltas populares, a resistência dos quilombolas, a luta dos povos indígenas e os movimentos sociais amplia a nossa visão e mostra que a cidadania e os direitos que temos hoje foram conquistados através de muita luta.</p><br>
+
+            <p><strong>Construção de uma sociedade mais justa:</strong> A memória histórica liberta a sociedade do esquecimento e do mito de que o Brasil é uma "democracia racial" pacífica onde todos têm as mesmas oportunidades. Ao encarar as feridas do passado com honestidade, a sociedade adquire ferramentas críticas para formular políticas mais justas, promover a inclusão e exigir equidade para o futuro.</p>
+        </section>
+    </div>
+
+</body>
+</html>
